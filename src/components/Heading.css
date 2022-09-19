@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+.heading {
+    font-size: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10% 15% 10% 15%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+
+.paragraph {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: flex;
+    text-align: justify;
+    padding: 0% 10% 10% 20%;
+    line-height: 3;
+}
+
+.seprator {
+    font-family: 'Chilanka', cursive;
+    color: red;
+}
+
+@media screen and (max-width:820px) {
+    .heading {
+        font-size: 40px;
+    }
+    .paragraph {
+        line-height: 2;
+    }
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    /* color: red; */
+    background: #0000ff;
+    color: white;
+}
+
+ ::selection {
+    /* color: red; */
+    background: #0000ff;
+    color: white;
+}
