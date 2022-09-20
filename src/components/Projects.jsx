@@ -53,9 +53,9 @@ const featured_projects = [
     {
       title: "MovieReview",
       description: "A Movie Review App That takes fetch data from TMDB api",
-      url: "https://www.npmjs.com/package/@beyond-ui/react",
+      url: "https://dulcet-clafoutis-6126b3.netlify.app/",
       image: `${process.env.PUBLIC_URL}/assets/moviereview.jpg`,
-      repository: "https://github.com/renli-tech/Beyond",
+      repository: "https://github.com/rudreshh7/movieReview",
      
     },
     {
